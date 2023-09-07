@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+ <meta charset="utf-8">
+ <title> Online Parking Book </title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body background="blueback.jpg">
+ <div class="qrbox">
+	<img src="https://github.com/hirokbanik/qrcode/blob/master/default.png?raw=true" alt="qr-code" />
+	<button>Book now</button>
+</div>	
+<table class = "calculator" >
+ <tr>
+ <td colspan = "3"> <input class = "display-box" type = "text" id = "result" disabled /> </td>
+ <!-- clearScreen() function clear all the values -->
+ <td> <input class = "button" type = "button" value = "Cancel Booking" onclick = "clearScreen()" style = "background-color: #fb0066;" /> </td>
+ </tr>
+ <tr>
+ <!-- display() function display the value of clicked button -->
+ <td> <input class = "button" type = "button" value = "Space 1" onclick = "display('Space 1 Selected')" style = "background-color: #00FF00;" /> </td>
+ <td> <input class = "button" type = "button" value = "Space 2" onclick = "display('Space 2 Selected')" /> </td>
+ <td> <input class = "button" type = "button" value = "Space 3" onclick = "display('Space 3 Selected')" /> </td>
+  <td> <input class = "button" type = "button" value = "Space 4" onclick = "display('Space 4 Selected')"style = "background-color: #00FF00; width: 50%;" /> </td>
+ </tr>
+
+ <tr>
+ <td> <input class = "button" type = "button" value = "Space 5" onclick = "display('Space 5 Selected')" /> </td>
+ <td> <input class = "button" type = "button" value = "Space 6" onclick = "display('Space 6 Selected')" /> </td>
+ <td> <input class = "button" type = "button" value = "Space 7" onclick = "display('Space 7 Selected')" style = "background-color: #00FF00;"/> </td>
+  <td> <input class = "button" type = "button" value = "Space 8" onclick = "display('Space 8 Selected')" style = "width: 50%;" /> </td>
+
+ </tr>
+ <tr>
+ <td> <input class = "button" type = "button" value = "Space 9" onclick = "display('Space 9 Selected')" /> </td>
+ <td> <input class = "button" type = "button" value = "Space 10" onclick = "display('Space 10 Selected')" style = "background-color: #00FF00;"/> </td>
+ <td> <input class = "button" type = "button" value = "Space 11" onclick = "display('Space 11 Selected')" style = "background-color: #00FF00;"/> </td>
+  <td> <input class = "button" type = "button" value = "Space 12" onclick = "display('Space 12 Selected')" style = "width: 50%;"/> </td>
+ 
+ </tr>
+ <tr>
+ 
+ </tr>
+ </table>
+ <form>
+  <table class = "user" >
+   <tr>
+   	<td><strong>Enter your details to book a space :</strong><br><br></td>
+
+   </tr>
+   <tr>
+    <td>Name :</td>
+    <td><input id="text1" type="text" ></td>
+   </tr>
+   <tr>
+    <td>Phone no :</td>
+    <td><input id = "text2"type="Phone"></td>
+   </tr>
+   <tr>
+    <td>Start Time :</td>
+    <td>
+     <select id= "text3">
+      <option>06:00</option>
+      <option>07:00</option>
+      <option>08:00</option>
+      <option>09:00</option>
+      <option>10:00</option>
+      <option>11:00</option>
+      <option>12:00</option>
+      <option>13:00</option>
+      <option>14:00</option>
+      <option>15:00</option>
+      <option>16:00</option>
+      <option>17:00</option>
+      <option>18:00</option>
+     </select>
+    </td>
+    <tr>
+    <td>Select Hours :</td>
+    <td>
+     <select id= "text4">
+      <option>1 hr</option>
+      <option>2 hrs</option>
+      <option>3 hrs</option>
+      <option>4 hrs</option>
+      <option>5 hrs</option>
+      <option>6 hrs</option>
+      <option>7 hrs</option>
+      <option>8 hrs</option>
+      <option>9 hrs</option>
+      <option>10 hrs</option>
+     </select>
+    </td>
+   </tr>
+   <tr>
+    <td><br><br> <input type = "button" value = "Submit" onclick="fn1()" id="btn1"> </td>
+   </tr>
+  </table>
+ </form>
+ <form>
+  <table class = "refresh" >
+   <tr>
+    <td><input type="submit" value="Refresh Paking Spaces"></td></td>
+   </tr>
+ </table>
+</form>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
+	
