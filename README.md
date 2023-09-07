@@ -1,6 +1,6 @@
-# CabsOnline Taxi Bookings (Web Development Assignment 2)
+# Transport Reservation System
 
-> A Taxi Booking System with HTML, PHP, MySQL and AJAX
+> A Booking System implemented with HTML, CSS PHP, MySQL and AJAX
 
 Overall, this assignment received full (40/40) marks as it met all required criteria.
 
@@ -13,7 +13,7 @@ Overall, this assignment received full (40/40) marks as it met all required crit
 
 ### Booking Flow
 
-A passenger shall be able to book a taxi in Auckland and surrounding areas.
+A passenger can book a taxi at any moment and surrounding areas.
 They specify:
 
 - Customer Name
