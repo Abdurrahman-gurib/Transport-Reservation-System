@@ -2,7 +2,7 @@
 
 > A Booking System implemented with HTML, CSS PHP, MySQL and AJAX
 
-Overall, this assignment received full (40/40) marks as it met all required criteria.
+Overall, this project was implemented during the InnovEd Challenge 2022 and was ranked the top 5th project in the theme coding and robotics.
 
 ## Actors
 
