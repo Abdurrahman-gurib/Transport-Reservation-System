@@ -1,4 +1,4 @@
-# Transport Reservation System
+# Transport Reservation System for the National InnovEd Competition 2022
 
 > A Booking System implemented with HTML, CSS PHP, MySQL and AJAX
 
